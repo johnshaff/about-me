@@ -1,7 +1,36 @@
-.hdTop {
-
+#hgTop h2 {
+  margin-bottom: 0px;
+  color: #cc0000;
 }
 
-.careerSummary {
+#hgTop h3 {
+  margin-top: 0px;
+}
 
+#careerSummary {
+  margin-bottom: 0px;
+  color: #cc0000;
+}
+
+#careerSummaryPara {
+  margin-top: 0px;
+}
+
+.job h4 {
+  margin-bottom: 1px;
+  color: #cc0000;
+}
+
+.job ul {
+  margin-top: 2px;
+}
+
+.education h4 {
+  margin-bottom: 0px;
+  color: #cc0000;
+}
+
+.education p {
+  margin-top: 0px;
+  font-style: italic;
 }
