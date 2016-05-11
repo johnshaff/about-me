@@ -74,3 +74,10 @@ else {
   alert('We can\'t believe you would ever think that John would go to that crack house of a school... no offense if you smoke crack... but also maybe you should stop smoking crack.');
   console.log(userName + ' answered the fifth question incorrectly.');
 }
+
+  // Fifth game question
+
+heyoooo
+
+
+    // Fifth game question
