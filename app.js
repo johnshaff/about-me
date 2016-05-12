@@ -83,6 +83,20 @@ else {
 
 // Sixth game question
 
+var johnAge = 35;
+var attempts6 = 5;
+
+for (var i = 5; i > 0; i--) {
+  var response6 = parseInt(prompt('Enter your best guess for John\'s age:'));
+  if (response6 === johnAge) {
+    alert('Great job ' + userName + ' John is ' + johnAge);
+    ++totalCorrectAnswers;
+  }
+  else {
+    --attempts6;
+    alert('Sorry ' + userName + ' that\'s incorrect. You have ' + attempts6 + ' more attempts to be a better human being.');
+  }
+};
 
 
 // 7th game question
