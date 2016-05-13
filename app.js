@@ -18,7 +18,6 @@ guessingCountry();
 // First Question Function
 
 function questionYesNo() {
-
   var response1 = prompt('Do you think John loves LA?').toLowerCase();
   var correctAnswer1 = 'yes';
 
@@ -37,7 +36,6 @@ function questionYesNo() {
 // Second Question Function
 
 function questionYesNo2() {
-
   var response2 = prompt('Did John ever work for David Zucker?').toLowerCase();
   var correctAnswer2 = 'yes';
 
@@ -106,7 +104,6 @@ function questionYesNo5() {
 // Sixth Function Question
 
 function guessingAge() {
-
   var johnAge = 35;
   var attempts6 = 5;
 
