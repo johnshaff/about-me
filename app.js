@@ -11,7 +11,7 @@ var response1 = prompt('Do you think John loves LA?').toLowerCase();
 var correctAnswer1 = 'yes';
 
 if (correctAnswer1 === response1 || correctAnswer1[0] === response1) {
-  alert('It\'s complicated actually. John loves LA, but he also hates it so bad sometimes');
+  alert('It\'s complicated actually. John loves LA, but he also hates it so bad sometimes.');
   console.log(userName + ' answered the first question correctly');
   ++totalCorrectAnswers;
 }
@@ -42,7 +42,7 @@ var response3 = prompt('Did Michael Peyser ever run Disney\'s live action studio
 var correctAnswer3 = 'yes';
 
 if (correctAnswer3 === response3 || correctAnswer3[0] === response3) {
-  alert('Ok, good, ' + userName + ' you can still read. Michael Peyser did run that Studio.');
+  alert('Correct! Michael Peyser did run that Studio.');
   console.log(userName + ' answered the third question correctly');
   ++totalCorrectAnswers;
 }
@@ -89,8 +89,9 @@ var attempts6 = 5;
 for (var i = 5; i > 0; i--) {
   var response6 = parseInt(prompt('Enter your best guess for John\'s age:'));
   if (response6 === johnAge) {
-    alert('Great job ' + userName + ' John is ' + johnAge);
+    alert('Great job ' + userName + '. John is ' + johnAge + '.');
     ++totalCorrectAnswers;
+    i = 0;
   }
   else {
     --attempts6;
@@ -117,4 +118,4 @@ while (attempts7 > 0) {
   }
 };
 
-alert('Hey ' + userName + ' Your total score was: ' + totalCorrectAnswers);
+alert('Hey ' + userName + '! Your total score was: ' + totalCorrectAnswers);
